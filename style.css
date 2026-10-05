@@ -7,3 +7,11 @@ h6{
 #Hel{
     color: red;
 }
+.title{
+    font-weight: 900;
+    color: red;
+}
+li{
+    font-style: italic;
+    font-weight: bold;
+}
