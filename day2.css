@@ -1,8 +1,16 @@
 .college-name{
-    background-color: skyblue;
+    
+    background-color: bisque;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
-    
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 5px;
     
 }
