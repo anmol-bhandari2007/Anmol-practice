@@ -1,0 +1,27 @@
+h6{
+    color: chocolate;
+}
+.one{
+    color:blue;
+}
+#Hel{
+    color: red;
+}
+.title{
+    font-weight: 900;
+    color: red;
+    text-transform: capitalize;
+}
+li{
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+#text{
+    color: red;
+
+}
+.head{
+    color:blue;   
+}
