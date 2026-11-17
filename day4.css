@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(217, 214, 214);
+}
+
+div{
+    background-color: white;
+    border:none
+    height: auto;
+    width: 500px;
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+#button1{
+
+    background-color:blue;
+    color:white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+#button2{
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+#button1:hover{
+    background-color:rgb(6, 6, 160);
+    cursor: pointer;
+}
+#button2:hover{
+    background-color:rgb(141, 3, 3);
+    cursor: pointer;
+}
+table{
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+label{
+    display:inline-block;
+    width: 100px;
+}
