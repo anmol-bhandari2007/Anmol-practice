@@ -1,0 +1,50 @@
+*{
+    margin:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+header{
+    display: flex;
+    background-color: #222;
+    justify-content: space-between;
+    color: white;
+    height: 50px;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.navbar{
+    color: white;
+    text-decoration: none;
+    padding-right: 8px;
+
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    background-color: rgb(191, 185, 188);
+    width: 220px;
+    padding-top: 10px;
+}
+img{
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+}
+.buy{
+    width: 220px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+p{
+    font-size: 1rem;
+    padding-left: 10px;
+}
+h3{
+    padding-left: 10px;
+}
