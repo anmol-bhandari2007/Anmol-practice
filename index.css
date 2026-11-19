@@ -3,7 +3,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #d2e0e5;
 }
 header{
     display: flex;
@@ -18,33 +18,54 @@ header{
 .navbar{
     color: white;
     text-decoration: none;
-    padding-right: 8px;
+    padding-right: 15px;
 
+}
+.navbar:hover{
+    
+    border: 2px solid white;
 }
 .products{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
+}
+h1{
+    margin: 10px 0px 20px 10px ;
 }
 .card{
-    background-color: rgb(191, 185, 188);
-    width: 220px;
+    background-color: rgb(241, 239, 240);
+    width:280px;
     padding-top: 10px;
+    margin-right: 20px;
+    height: 320px;
+}
+.card:hover{
+    border: 2px solid rgb(198, 190, 190);
 }
 img{
-    height: 150px;
-    width: 200px;
+    height: 230px;
+    width: 260px;
     padding: 10px;
 }
 .buy{
-    width: 220px;
+    width: 280px;
     height: 30px;
     background-color: blue;
     color: white;
 }
+.buy:hover{
+    border:3px solid rgb(18, 17, 17);
+}
 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    color: red;
     padding-left: 10px;
 }
 h3{
     padding-left: 10px;
+}
+h2:hover{
+border: 2px solid white;
+cursor: pointer;
 }
