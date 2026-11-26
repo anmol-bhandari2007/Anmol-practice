@@ -133,3 +133,9 @@ button[type="reset"]{
     color: var(--ink);
     margin-top: 10px;
 }
+button[type="submit"]:hover{
+    background-color: rgb(36, 75, 89);
+}
+button[type="reset"]:hover{
+    background-color: #cfd9e0;
+}
