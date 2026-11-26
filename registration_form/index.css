@@ -56,7 +56,7 @@ fieldset{
 label.title, .legend{
     display: block;
     margin-bottom: 8px;
-    font-weigth:600px;
+    font-weight:600px;
     font-size: 14px;
 
 }
@@ -87,6 +87,7 @@ select:focus{
     border-color: var(--accent);
     box-shadow: 0 0 0 4px var(--tint);
 }
+
 .option input{
     position: absolute;
     opacity: 0;
